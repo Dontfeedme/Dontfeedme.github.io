@@ -198,3 +198,102 @@ img {
     justify-content: space-evenly;
     align-items: center;
 }
+
+/* Nosotros */
+
+@media (min-width: 768px) {
+    .contenedor-principal {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 3rem;
+        width: 150rem;
+        max-width: 95%;
+        margin: 0 auto;
+    }
+}
+
+
+/* Aside! */
+.nombre {
+    color: var(--blanco);
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 0rem;
+}
+.side-bar{ 
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.aside-bg {
+    background-color: #167AFA;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 45rem;
+    width: 26.9rem;
+}
+
+.foto-aside{
+    margin-top: 2.5rem;
+    border-radius: 3%;
+}
+
+.aside-contacto {
+  
+    line-height: 1.5rem;
+    text-align: center;
+    
+}
+.aside-info {
+    font-family: var(--fuenteParrafos);
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
+/* Contenido Principal */
+
+.widget-cv {
+   line-height: 2.6rem;
+   font-family: var(--fuenteParrafos);
+}
+
+.widget-cv__label {
+    font-weight: bold;
+    font-size: 2rem;
+    
+
+}
+
+.widget-cv__fecha {
+    font-size: 1.5rem;
+    color: #919191;
+    text-decoration: none;
+}
+
+.widget-cv__texto {}
+
+.main-border {
+    border-bottom: 2px solid var(--gris);
+    padding-bottom: 2rem;
+}
+.widget-cv__adjunto {
+    text-decoration: underline;
+    color: #919191;
+}
+@media (min-width: 768px) {
+    .grid--caja-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+}
+
+}
+
+.cv-habilidades {
+    color: #919191;
+}
+.idioma {
+    font-weight: bold;
+}
