@@ -1,0 +1,14 @@
+:root {
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+
+    --primario: #784D3C;
+    --gris: #e1e1e1;
+    --blanco: #ffffff;
+    --negro: #000000;
+}
+
+h1 {
+    font-size: 4.8rem;
+    color: var(--primario);
+}
