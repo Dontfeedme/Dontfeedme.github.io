@@ -242,10 +242,8 @@ img {
 }
 
 .aside-contacto {
-  
     line-height: 1.5rem;
     text-align: center;
-    
 }
 .aside-info {
     font-family: var(--fuenteParrafos);
@@ -263,8 +261,6 @@ img {
 .widget-cv__label {
     font-weight: bold;
     font-size: 2rem;
-    
-
 }
 
 .widget-cv__fecha {
@@ -279,10 +275,7 @@ img {
     border-bottom: 2px solid var(--gris);
     padding-bottom: 2rem;
 }
-.widget-cv__adjunto {
-    text-decoration: underline;
-    color: #919191;
-}
+
 @media (min-width: 768px) {
     .grid--caja-main {
         display: grid;
