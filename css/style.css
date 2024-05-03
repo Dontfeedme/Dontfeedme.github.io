@@ -231,13 +231,14 @@ img {
     background-color: #167AFA;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    height: 45rem;
+    height: 60rem;
     width: 26.9rem;
 }
 
 .foto-aside{
     margin-top: 2.5rem;
     border-radius: 3%;
+    max-height: 30rem;
 }
 
 .aside-contacto {
